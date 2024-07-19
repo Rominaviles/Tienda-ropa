@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Ropa</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="headerLogo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacionEnlace" href="index.html">Tienda</a>
+        <a class="navegacionEnlace navegacionEnlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>VueJS</h1>
+
+        <div class="camisa">
+            <img class="camisaImagen" src="img/1.jpg" alt="Imagen del producto">
+
+            <div class="camisaContenido">
+                <p>Duis quis magna nunc. Aenean vel magna in nisi semper pellentesque. Maecenas tristique, diam elementum elementum cursus, lectus dui pulvinar purus, in facilisis nisi tortor et arcu. Ut dictum neque sit amet eros lobortis scelerisque vel vitae dolor.</p>
+                <form class="formulario">
+                    <select class="formularioCampo">
+                        <option disabled selected>--Seleccionar talla--</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formularioCampo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formularioSubmit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footerTexto"> Tienda Ropa - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>
